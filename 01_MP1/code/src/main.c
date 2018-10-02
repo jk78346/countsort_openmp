@@ -31,6 +31,7 @@ int main(void) {
 
     // get |v| |e| count do we can allocate our edge array and vertex array
     loadEdgeArrayInfo(fname, &numOfVertices, &numOfEdges);
+    printf("check point");
     printf("Edges : %d Vertices: %d\n", numOfEdges, numOfVertices);
 
     // allocate our edge array and vertex array
